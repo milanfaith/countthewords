@@ -1,14 +1,14 @@
-## About
+About
 This is a bash shell script that takes a path to a text file as an argument and counts the words in that file and sorts them by the number of occurrences starting with the most frequent word. It was tested on Ubuntu but it should work on any Linux with bash shell awk and sort command present in the system.
 
-## Prerequisites
+Prerequisites
 bash, awk, sort commads
 
-## Installation
+Installation
 The script can be run from anywhere but location that is part of the pre-set PATH environemnt variable makes it available without specifying the absolute path. Locations /usr/local/bin/ or ~/bin/ might be a good choice but this really depends on the system setp and admin/user preferrence. Copy the script to a location of you choice and make it executable byt running 'chmod +x countthewords.sh' command. 
 
-## Usage
-`countthewords.sh  <path to a text file name>`
+Usage
+countthewords.sh  <path to a text file name>
 
-## Uninstallation
-Delete the script by running `rm -f <installation path>/countthewords.sh`
+Uninstallation
+Delete the script by running rm -f <installation path>/countthewords.sh
